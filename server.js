@@ -14,7 +14,7 @@ app.get('/ui/css/style.css', function (req, res) {
 });
 
 app.get('/ui/css/bootstrap.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'bootstrap.css'));
+  res.sendFile(path.join(__dirname, 'ui,css', 'bootstrap.css'));
 });
 
 app.get('/main.html', function (req, res) {
