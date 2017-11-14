@@ -13,11 +13,11 @@ app.get('/main.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.html'));
 });
 
-app.get('/ui/css/style.css', function (req, res) {
+app.get('/css/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/ui/css/bootstrap.css', function (req, res) {
+app.get('/css/bootstrap.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bootstrap.css'));
 });
 
