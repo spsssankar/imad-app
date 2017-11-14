@@ -21,6 +21,10 @@ app.get('/ui/css/font-awesome.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'font-awesome.css'));
 });
 
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.html'));
+});
+
 
 
 
