@@ -17,9 +17,7 @@ app.get('/ui/css/bootstrap.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bootstrap.css'));
 });
 
-app.get('/main.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.html'));
-});
+
 
 
 
