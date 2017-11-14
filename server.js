@@ -13,6 +13,13 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
+app.get('/main.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.html'));
+});
+
+app.get('/ui/style.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+});
 
 
 // Do not change port, otherwise your app won't run on IMAD servers
