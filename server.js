@@ -17,6 +17,10 @@ app.get('/ui/css/bootstrap.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bootstrap.css'));
 });
 
+app.get('/ui/css/font-awesome.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'font-awesome.css'));
+});
+
 
 
 
