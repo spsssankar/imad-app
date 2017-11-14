@@ -9,6 +9,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/main.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.html'));
+});
+
 app.get('/ui/css/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
@@ -21,9 +25,7 @@ app.get('/ui/css/font-awesome.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'font-awesome.css'));
 });
 
-app.get('/main.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.html'));
-});
+
 
 
 
